@@ -1,0 +1,23 @@
+{
+  "name": "intro-typescript-fsopen",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sameeksha-dalvi/intro-typescript-fsopen#readme",
+  "bugs": {
+    "url": "https://github.com/sameeksha-dalvi/intro-typescript-fsopen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameeksha-dalvi/intro-typescript-fsopen.git"
+  },
+  "license": "ISC",
+  "author": "Sameeksha",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
