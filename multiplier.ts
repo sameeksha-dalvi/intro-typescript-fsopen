@@ -12,16 +12,16 @@ const parseArguments = (args: string[]): MultiplyValues => {
         return {
             value1: Number(args[2]),
             value2: Number(args[3])
-        }
+        };
     }else{
-        throw new Error('Provided values are not numbers!')
+        throw new Error('Provided values are not numbers!');
     }
-}
+};
 
 
 const multiplicator = (a: number, b: number, printText: string) => {
-    console.log(printText, a * b)
-}
+    console.log(printText, a * b);
+};
 
 // multiplicator(2, 4, 'Multiplied numbers 2 and 4, the result is:');
 
@@ -35,9 +35,9 @@ try {
     multiplicator(value1, value2, `Multiplied ${value1} and ${value2}, the result is: `);
 
 } catch (error: unknown) {
-    let errorMsg = 'Something bad happened.'
+    let errorMsg = 'Something bad happened.';
     if(error instanceof Error){
         errorMsg += ' Error: '+ error.message;
     }
-    console.log(errorMsg)
+    console.log(errorMsg);
 }
